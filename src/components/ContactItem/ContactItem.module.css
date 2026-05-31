@@ -1,0 +1,28 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #334155;
+  border-radius: 12px;
+  font-size: 17px;
+  transition: 0.3s;
+}
+
+.item:hover {
+  transform: translateY(-2px);
+}
+
+.btn {
+  border: none;
+  background: #ef4444;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #dc2626;
+}
